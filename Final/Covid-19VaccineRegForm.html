@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19 Vaccine registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        
+        <div class="title">COVID-19 Registration Form
+
+            <form action="#">
+                <div class="user-details">
+
+                    <div class="input-box">
+                        <span class="details">Full Name</span>
+                        <input type="text" placeholder="First Name" required>
+                        <input type="text" placeholder="Last Name" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">National ID Number</span>
+                        <input type="number" placeholder="NID number" required>
+                    </div>
+                </div>
+
+                <div class="gender-details">
+                    
+                   
+                    <span class="gender-title"> Gender</span>
+                    <div class="catagory">
+                        <label for="dot-1">
+                            
+                            <input type="radio" name="gender" id="dot-1">
+                            <span class="gender">Male</span>
+                        </label>
+                        <label for="dot-2">
+                           
+                            <input type="radio" name="gender" id="dot-2">
+                            <span class="gender">Female</span>
+                        </label>
+                        <label for="dot-2">
+                           
+                            <input type="radio" name="gender" id="dot-2">
+                            <span class="gender">Other</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="date">  
+                    <label for="birthday">Birthday:</label>
+                    <input type="date" id="birthday" name="birthday" max="2021-12-31" min="1901-01-01">
+                </div>
+
+                <div class="user-details1">
+                    <div class="input-box1">
+                        <span class="details1">E-mail</span>
+                        <input type="email" placeholder="E-mail" required>
+                    </div>
+                    <div class="input-box1">
+                        <span class="details1">Phone Number</span>
+                        <input type="number" placeholder="Phone Number" required>
+                    </div> 
+                    <div class="input-box1">
+                        <span class="details1">address</span>
+                        <input type="text" placeholder="street address" required>
+                        <input type="text" placeholder="city" required>
+                        <input type="text " placeholder="Division" required>
+                    </div>
+                    <div class="covid-details">
+                    
+                   
+                        <span class="covid-title"> Have you diagnosed with COVID-19</span>
+                        <div class="catagory">
+                            <label for="dot-1">
+                                
+                                <input type="radio" name="covid" id="dot-1">
+                                <span class="covid">Yes</span>
+                            </label>
+                            <label for="dot-2">
+                               
+                                <input type="radio" name="covid" id="dot-2">
+                                <span class="covid">No</span>
+                            </label>
+                        
+                         </div>   
+                        </div>
+                    </div>
+                    <div class="assure">
+                        <span class="covid-title"> I hereby declare that all the given information are true</span>
+                        <div class="catagory">
+                            <label for="dot">
+                                <input type="radio" name="covid" id="dot">
+                            </label>
+                    </div>
+                </div>
+
+                <div class="button">
+                    <input type="submit" value="Back">
+                    <input type="submit" value="Register">
+                </div>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>
